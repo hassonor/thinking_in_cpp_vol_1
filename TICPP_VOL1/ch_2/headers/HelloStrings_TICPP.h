@@ -1,0 +1,13 @@
+//
+// Created by Or on 1/12/2024.
+//
+
+#ifndef CPP_PLAYGROUND_2_HELLOSTRINGS_TICPP_H
+#define CPP_PLAYGROUND_2_HELLOSTRINGS_TICPP_H
+
+
+
+void testHelloStrings_TICPP();
+
+
+#endif //CPP_PLAYGROUND_2_HELLOSTRINGS_TICPP_H
