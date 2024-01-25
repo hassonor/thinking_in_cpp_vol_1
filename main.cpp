@@ -6,7 +6,8 @@
 #include "TICPP_VOL1/ch_2/headers/GetWords_TICPP.h"
 #include "TICPP_VOL1/ch_2/headers/IntVector_TICPP.h"
 #include "notes/server_winsock.h"
-#include "TICPP_VOL1/ch_3/Menu_TICPP.h"
+#include "TICPP_VOL1/ch_3/headers/Menu_TICPP.h"
+#include "TICPP_VOL1/ch_3/headers/Menu2_TICPP.h"
 
 int main() {
     // Chapter 2
@@ -18,6 +19,7 @@ int main() {
     testGetWords_TICPP();
     testIntVector_TICPP();
 //    testWinSocketDemo();
-    testMenu_TICPP();
+//    testMenu_TICPP();
+    testMenu2_TICPP();
     return 0;
 }

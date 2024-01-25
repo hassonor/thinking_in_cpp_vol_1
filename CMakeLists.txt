@@ -22,6 +22,8 @@ add_executable(cpp_playground_2 main.cpp
         notes/server_winsock.cpp
         notes/server_winsock.h
         TICPP_VOL1/ch_3/Menu_TICPP.cpp
-        TICPP_VOL1/ch_3/Menu_TICPP.h)
+        TICPP_VOL1/ch_3/headers/Menu_TICPP.h
+        TICPP_VOL1/ch_3/Menu2_TICPP.cpp
+        TICPP_VOL1/ch_3/headers/Menu2_TICPP.h)
 
 target_link_libraries(cpp_playground_2 PRIVATE ws2_32)
