@@ -18,4 +18,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_2/GetWords_TICPP.cpp
         TICPP_VOL1/ch_2/headers/GetWords_TICPP.h
         TICPP_VOL1/ch_2/IntVector_TICPP.cpp
-        TICPP_VOL1/ch_2/headers/IntVector_TICPP.h)
+        TICPP_VOL1/ch_2/headers/IntVector_TICPP.h
+        notes/server_winsock.cpp
+        notes/server_winsock.h)
+
+target_link_libraries(cpp_playground_2 PRIVATE ws2_32)
