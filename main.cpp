@@ -8,6 +8,7 @@
 #include "notes/server_winsock.h"
 #include "TICPP_VOL1/ch_3/headers/Menu_TICPP.h"
 #include "TICPP_VOL1/ch_3/headers/Menu2_TICPP.h"
+#include "TICPP_VOL1/ch_3/headers/CatsInHats_TICPP.h"
 
 int main() {
     // Chapter 2
@@ -20,6 +21,7 @@ int main() {
     testIntVector_TICPP();
 //    testWinSocketDemo();
 //    testMenu_TICPP();
-    testMenu2_TICPP();
+//    testMenu2_TICPP();
+    removeHat('A');
     return 0;
 }
