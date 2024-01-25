@@ -20,6 +20,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_2/IntVector_TICPP.cpp
         TICPP_VOL1/ch_2/headers/IntVector_TICPP.h
         notes/server_winsock.cpp
-        notes/server_winsock.h)
+        notes/server_winsock.h
+        TICPP_VOL1/ch_3/Menu_TICPP.cpp
+        TICPP_VOL1/ch_3/Menu_TICPP.h)
 
 target_link_libraries(cpp_playground_2 PRIVATE ws2_32)
