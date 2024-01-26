@@ -28,6 +28,10 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_3/CatsInHats_TICPP.cpp
         TICPP_VOL1/ch_3/headers/CatsInHats_TICPP.h
         TICPP_VOL1/ch_3/Specify_TICPP.cpp
-        TICPP_VOL1/ch_3/headers/Specify_TICPP.h)
+        TICPP_VOL1/ch_3/headers/Specify_TICPP.h
+        TICPP_VOL1/ch_3/PassByValue_TICPP.cpp
+        TICPP_VOL1/ch_3/headers/PassByValue_TICPP.h
+        TICPP_VOL1/ch_3/PassByAddress_TICPP.cpp
+        TICPP_VOL1/ch_3/headers/PassByAddress_TICPP.h)
 
 target_link_libraries(cpp_playground_2 PRIVATE ws2_32)

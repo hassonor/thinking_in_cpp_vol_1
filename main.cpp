@@ -10,6 +10,8 @@
 #include "TICPP_VOL1/ch_3/headers/Menu2_TICPP.h"
 #include "TICPP_VOL1/ch_3/headers/CatsInHats_TICPP.h"
 #include "TICPP_VOL1/ch_3/headers/Specify_TICPP.h"
+#include "TICPP_VOL1/ch_3/headers/PassByValue_TICPP.h"
+#include "TICPP_VOL1/ch_3/headers/PassByAddress_TICPP.h"
 
 int main() {
     // Chapter 2
@@ -20,10 +22,13 @@ int main() {
     testFillVector_TICPP();
     testGetWords_TICPP();
     testIntVector_TICPP();
-//    testWinSocketDemo();
+
+    // Chapter 3
 //    testMenu_TICPP();
 //    testMenu2_TICPP();
     removeHat('A');
     demoSpecify_TICPP();
+    passByValueDemo();
+    passByAddressDemo();
     return 0;
 }
