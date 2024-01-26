@@ -15,7 +15,7 @@ void f(int* p) {
 
 void passByAddressDemo() {
     int x = 47;
-    std::cout << "**************" << std::endl;
+    std::cout << "**************passByAddressDemo***************" << std::endl;
     std::cout << "x = " << x << std::endl;
     std::cout << "&x = " << &x << std::endl;
     f(&x);

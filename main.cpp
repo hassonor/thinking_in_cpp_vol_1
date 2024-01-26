@@ -12,6 +12,7 @@
 #include "TICPP_VOL1/ch_3/headers/Specify_TICPP.h"
 #include "TICPP_VOL1/ch_3/headers/PassByValue_TICPP.h"
 #include "TICPP_VOL1/ch_3/headers/PassByAddress_TICPP.h"
+#include "TICPP_VOL1/ch_3/headers/PassByReference_TICPP.h"
 
 int main() {
     // Chapter 2
@@ -30,5 +31,6 @@ int main() {
     demoSpecify_TICPP();
     passByValueDemo();
     passByAddressDemo();
+    passByReferenceDemo();
     return 0;
 }
