@@ -9,6 +9,7 @@
 #include "TICPP_VOL1/ch_3/headers/Menu_TICPP.h"
 #include "TICPP_VOL1/ch_3/headers/Menu2_TICPP.h"
 #include "TICPP_VOL1/ch_3/headers/CatsInHats_TICPP.h"
+#include "TICPP_VOL1/ch_3/headers/Specify_TICPP.h"
 
 int main() {
     // Chapter 2
@@ -23,5 +24,6 @@ int main() {
 //    testMenu_TICPP();
 //    testMenu2_TICPP();
     removeHat('A');
+    demoSpecify_TICPP();
     return 0;
 }

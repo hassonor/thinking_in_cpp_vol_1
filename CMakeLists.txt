@@ -26,6 +26,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_3/Menu2_TICPP.cpp
         TICPP_VOL1/ch_3/headers/Menu2_TICPP.h
         TICPP_VOL1/ch_3/CatsInHats_TICPP.cpp
-        TICPP_VOL1/ch_3/headers/CatsInHats_TICPP.h)
+        TICPP_VOL1/ch_3/headers/CatsInHats_TICPP.h
+        TICPP_VOL1/ch_3/Specify_TICPP.cpp
+        TICPP_VOL1/ch_3/headers/Specify_TICPP.h)
 
 target_link_libraries(cpp_playground_2 PRIVATE ws2_32)
