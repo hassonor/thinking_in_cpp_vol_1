@@ -50,6 +50,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_3/SimpleStructTICPP.cpp
         TICPP_VOL1/ch_3/headers/SimpleStructTICPP.h
         TICPP_VOL1/ch_3/ArraysIntroTICPP.cpp
-        TICPP_VOL1/ch_3/headers/ArraysIntroTICPP.h)
+        TICPP_VOL1/ch_3/headers/ArraysIntroTICPP.h
+        TICPP_VOL1/ch_3/PointerIncrementTICPP.cpp
+        TICPP_VOL1/ch_3/headers/PointerIncrementTICPP.h)
 
 target_link_libraries(cpp_playground_2 PRIVATE ws2_32)

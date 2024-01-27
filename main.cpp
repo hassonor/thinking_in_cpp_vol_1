@@ -19,9 +19,10 @@
 #include "TICPP_VOL1/ch_3/headers/ReinterpretCastTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/SimpleStructTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/ArraysIntroTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/PointerIncrementTICPP.h"
 
 int main() {
-    // Chapter 2
+    // TICPP: Chapter 2
     testStreamTICPP();
     testHelloStringsTICPP();
     testScopyTICPP();
@@ -30,7 +31,7 @@ int main() {
     testGetWordsTICPP();
     testIntVectorTICPP();
 
-    // Chapter 3
+    // TICPP: Chapter 3
 //    testMenuTICPP();
 //    testMenu2TICPP();
     removeHat('A');
@@ -44,5 +45,7 @@ int main() {
     reinterpretCastDemo();
     simpleStructDemo();
     arraysIntroDemoTICPP();
+    pointerIncrementDemo1();
+    pointerIncrementDemo2();
     return 0;
 }
