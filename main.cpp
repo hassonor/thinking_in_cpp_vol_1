@@ -22,6 +22,7 @@
 #include "TICPP_VOL1/ch_3/headers/PointerIncrementTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/PointerArithmeticTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/PointerToFunctionTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/FunctionTableTICPP.h"
 
 int main() {
     // TICPP: Chapter 2
@@ -51,5 +52,6 @@ int main() {
     pointerIncrementDemo2(); // 3.15
     pointerArithmeticDemo(); // 3.16
     PointerToFunctionDemo(); // 3.17
+//    functionTableDemo(); // 3.18
     return 0;
 }
