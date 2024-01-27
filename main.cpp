@@ -18,6 +18,7 @@
 #include "TICPP_VOL1/ch_3/headers/BitwiseTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/ReinterpretCastTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/SimpleStructTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/ArraysIntroTICPP.h"
 
 int main() {
     // Chapter 2
@@ -42,5 +43,6 @@ int main() {
 //    bitwiseDemoTICPP();
     reinterpretCastDemo();
     simpleStructDemo();
+    arraysIntroDemoTICPP();
     return 0;
 }

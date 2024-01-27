@@ -1,0 +1,12 @@
+//
+// Created by Or on 1/27/2024.
+//
+
+#ifndef CPP_PLAYGROUND_2_ARRAYSINTROTICPP_H
+#define CPP_PLAYGROUND_2_ARRAYSINTROTICPP_H
+
+
+void arraysIntroDemoTICPP();
+
+
+#endif //CPP_PLAYGROUND_2_ARRAYSINTROTICPP_H
