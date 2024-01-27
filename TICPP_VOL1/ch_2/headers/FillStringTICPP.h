@@ -1,0 +1,12 @@
+//
+// Created by Or on 1/12/2024.
+//
+
+#ifndef CPP_PLAYGROUND_2_FILLSTRINGTICPP_H
+#define CPP_PLAYGROUND_2_FILLSTRINGTICPP_H
+
+
+void testFillStringTICPP();
+
+
+#endif //CPP_PLAYGROUND_2_FILLSTRINGTICPP_H

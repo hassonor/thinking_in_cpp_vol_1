@@ -1,38 +1,40 @@
-#include "TICPP_VOL1/ch_2/headers/Stream_TICPP.h"
-#include "TICPP_VOL1/ch_2/headers/HelloStrings_TICPP.h"
-#include "TICPP_VOL1/ch_2/headers/Scopy_TICPP.h"
-#include "TICPP_VOL1/ch_2/headers/FillString_TICPP.h"
-#include "TICPP_VOL1/ch_2/headers/FillVector_TICPP.h"
-#include "TICPP_VOL1/ch_2/headers/GetWords_TICPP.h"
-#include "TICPP_VOL1/ch_2/headers/IntVector_TICPP.h"
+#include "TICPP_VOL1/ch_2/headers/StreamTICPP.h"
+#include "TICPP_VOL1/ch_2/headers/HelloStringsTICPP.h"
+#include "TICPP_VOL1/ch_2/headers/ScopyTICPP.h"
+#include "TICPP_VOL1/ch_2/headers/FillStringTICPP.h"
+#include "TICPP_VOL1/ch_2/headers/FillVectorTICPP.h"
+#include "TICPP_VOL1/ch_2/headers/GetWordsTICPP.h"
+#include "TICPP_VOL1/ch_2/headers/IntVectorTICPP.h"
 #include "notes/server_winsock.h"
-#include "TICPP_VOL1/ch_3/headers/Menu_TICPP.h"
-#include "TICPP_VOL1/ch_3/headers/Menu2_TICPP.h"
-#include "TICPP_VOL1/ch_3/headers/CatsInHats_TICPP.h"
-#include "TICPP_VOL1/ch_3/headers/Specify_TICPP.h"
-#include "TICPP_VOL1/ch_3/headers/PassByValue_TICPP.h"
-#include "TICPP_VOL1/ch_3/headers/PassByAddress_TICPP.h"
-#include "TICPP_VOL1/ch_3/headers/PassByReference_TICPP.h"
-#include "TICPP_VOL1/ch_3/headers/Mathops_TICPP.h"
+#include "TICPP_VOL1/ch_3/headers/MenuTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/Menu2TICPP.h"
+#include "TICPP_VOL1/ch_3/headers/CatsInHatsTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/SpecifyTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/PassByValueTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/PassByAddressTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/PassByReferenceTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/MathopsTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/printBinaryTICPP.h"
 
 int main() {
     // Chapter 2
-    testStream_TICPP();
-    testHelloStrings_TICPP();
-    testScopy_TICPP();
-    testFillString_TICPP();
-    testFillVector_TICPP();
-    testGetWords_TICPP();
-    testIntVector_TICPP();
+    testStreamTICPP();
+    testHelloStringsTICPP();
+    testScopyTICPP();
+    testFillStringTICPP();
+    testFillVectorTICPP();
+    testGetWordsTICPP();
+    testIntVectorTICPP();
 
     // Chapter 3
-//    testMenu_TICPP();
-//    testMenu2_TICPP();
+//    testMenuTICPP();
+//    testMenu2TICPP();
     removeHat('A');
-    demoSpecify_TICPP();
+    demoSpecifyTICPP();
     passByValueDemo();
     passByAddressDemo();
     passByReferenceDemo();
 //    mathOpsDemo();
+    printBinaryDemo(255);
     return 0;
 }
