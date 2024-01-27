@@ -46,6 +46,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_3/StaticCastTICPP.cpp
         TICPP_VOL1/ch_3/headers/StaticCastTICPP.h
         TICPP_VOL1/ch_3/ReinterpretCastTICPP.cpp
-        TICPP_VOL1/ch_3/headers/ReinterpretCastTICPP.h)
+        TICPP_VOL1/ch_3/headers/ReinterpretCastTICPP.h
+        TICPP_VOL1/ch_3/SimpleStructTICPP.cpp
+        TICPP_VOL1/ch_3/headers/SimpleStructTICPP.h)
 
 target_link_libraries(cpp_playground_2 PRIVATE ws2_32)

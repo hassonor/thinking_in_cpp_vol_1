@@ -17,6 +17,7 @@
 #include "TICPP_VOL1/ch_3/headers/printBinaryTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/BitwiseTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/ReinterpretCastTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/SimpleStructTICPP.h"
 
 int main() {
     // Chapter 2
@@ -40,5 +41,6 @@ int main() {
 //    printBinaryDemo(255);
 //    bitwiseDemoTICPP();
     reinterpretCastDemo();
+    simpleStructDemo();
     return 0;
 }
