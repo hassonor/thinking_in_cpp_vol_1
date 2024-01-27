@@ -1,0 +1,12 @@
+//
+// Created by Or on 1/27/2024.
+//
+
+#ifndef CPP_PLAYGROUND_2_REINTERPRETCASTTICPP_H
+#define CPP_PLAYGROUND_2_REINTERPRETCASTTICPP_H
+
+
+void reinterpretCastDemo();
+
+
+#endif //CPP_PLAYGROUND_2_REINTERPRETCASTTICPP_H
