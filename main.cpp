@@ -15,6 +15,7 @@
 #include "TICPP_VOL1/ch_3/headers/PassByReferenceTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/MathopsTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/printBinaryTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/BitwiseTICPP.h"
 
 int main() {
     // Chapter 2
@@ -35,6 +36,7 @@ int main() {
     passByAddressDemo();
     passByReferenceDemo();
 //    mathOpsDemo();
-    printBinaryDemo(255);
+//    printBinaryDemo(255);
+//    bitwiseDemoTICPP();
     return 0;
 }

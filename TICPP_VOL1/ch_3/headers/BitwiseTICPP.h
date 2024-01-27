@@ -6,9 +6,7 @@
 #define CPP_PLAYGROUND_2_BITWISETICPP_H
 
 
-class BitwiseTICPP {
-
-};
+void bitwiseDemoTICPP();
 
 
 #endif //CPP_PLAYGROUND_2_BITWISETICPP_H
