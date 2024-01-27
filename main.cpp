@@ -20,6 +20,7 @@
 #include "TICPP_VOL1/ch_3/headers/SimpleStructTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/ArraysIntroTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/PointerIncrementTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/PointerArithmeticTICPP.h"
 
 int main() {
     // TICPP: Chapter 2
@@ -47,5 +48,6 @@ int main() {
     arraysIntroDemoTICPP();
     pointerIncrementDemo1();
     pointerIncrementDemo2();
+    pointerArithmeticDemo();
     return 0;
 }
