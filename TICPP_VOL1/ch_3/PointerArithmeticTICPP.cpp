@@ -25,4 +25,5 @@ void pointerArithmeticDemo() {
     P(*ip);
     P(*ip2);
     P(ip2 - ip); // Yields number of elements
+    cout << "**********************" << endl;
 }

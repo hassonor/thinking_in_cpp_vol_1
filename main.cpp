@@ -21,6 +21,7 @@
 #include "TICPP_VOL1/ch_3/headers/ArraysIntroTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/PointerIncrementTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/PointerArithmeticTICPP.h"
+#include "TICPP_VOL1/ch_3/headers/PointerToFunctionTICPP.h"
 
 int main() {
     // TICPP: Chapter 2
@@ -33,21 +34,22 @@ int main() {
     testIntVectorTICPP();
 
     // TICPP: Chapter 3
-//    testMenuTICPP();
-//    testMenu2TICPP();
-    removeHat('A');
-    demoSpecifyTICPP();
-    passByValueDemo();
-    passByAddressDemo();
-    passByReferenceDemo();
-//    mathOpsDemo();
-//    printBinaryDemo(255);
-//    bitwiseDemoTICPP();
-    reinterpretCastDemo();
-    simpleStructDemo();
-    arraysIntroDemoTICPP();
-    pointerIncrementDemo1();
-    pointerIncrementDemo2();
-    pointerArithmeticDemo();
+//    testMenuTICPP(); // 3.1
+//    testMenu2TICPP(); // 3.2
+    removeHat('A'); // 3.3
+    demoSpecifyTICPP(); // 3.4
+    passByValueDemo(); // 3.5
+    passByAddressDemo(); // 3.6
+    passByReferenceDemo(); // 3.7
+//    mathOpsDemo(); // 3.8
+//    printBinaryDemo(255); // 3.9
+//    bitwiseDemoTICPP(); // 3.10
+    reinterpretCastDemo(); // 3.11
+    simpleStructDemo(); // 3.12
+    arraysIntroDemoTICPP(); // 3.13
+    pointerIncrementDemo1(); // 3.14
+    pointerIncrementDemo2(); // 3.15
+    pointerArithmeticDemo(); // 3.16
+    PointerToFunctionDemo(); // 3.17
     return 0;
 }
