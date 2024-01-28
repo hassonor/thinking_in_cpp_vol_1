@@ -58,6 +58,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_3/PointerToFunctionTICPP.cpp
         TICPP_VOL1/ch_3/headers/PointerToFunctionTICPP.h
         TICPP_VOL1/ch_3/FunctionTableTICPP.cpp
-        TICPP_VOL1/ch_3/headers/FunctionTableTICPP.h)
+        TICPP_VOL1/ch_3/headers/FunctionTableTICPP.h
+        TICPP_VOL1/ch_4/ClibDemoTICPP.cpp
+        TICPP_VOL1/ch_4/headers/ClibDemoTICPP.h)
 
 target_link_libraries(cpp_playground_2 PRIVATE ws2_32)
