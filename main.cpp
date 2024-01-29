@@ -24,6 +24,7 @@
 #include "TICPP_VOL1/ch_3/headers/PointerToFunctionTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/FunctionTableTICPP.h"
 #include "TICPP_VOL1/ch_4/headers/ClibDemoTICPP.h"
+#include "TICPP_VOL1/ch_4/headers/Clib2DemoTICPP.h"
 
 int main() {
     // TICPP: Chapter 2
@@ -57,5 +58,6 @@ int main() {
 
     // TICPP: Chapter 4
     CLibTestTICPP(); // 4.1
+    CLib2TestTICPP(); // 4.2
     return 0;
 }
