@@ -62,6 +62,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_4/ClibDemoTICPP.cpp
         TICPP_VOL1/ch_4/headers/ClibDemoTICPP.h
         TICPP_VOL1/ch_4/Clib2DemoTICPP.cpp
-        TICPP_VOL1/ch_4/headers/Clib2DemoTICPP.h)
+        TICPP_VOL1/ch_4/headers/Clib2DemoTICPP.h
+        TICPP_VOL1/ch_4/SizeOfStructTICPP.cpp
+        TICPP_VOL1/ch_4/headers/SizeOfStructTICPP.h)
 
 target_link_libraries(cpp_playground_2 PRIVATE ws2_32)

@@ -10,26 +10,24 @@
 #include <cstring>
 #include <filesystem>
 
-using namespace std;
-
 // Break a file into whitespace-separated words
 void testGetWordsTICPP() {
-    vector<string> words;
+    std::vector<std::string> words;
 
-    filesystem::path inPath = filesystem::absolute("../TICPP_VOL1/ch_2/GetWords_TICPP.cpp");
-    cout << "Input file path: " << inPath << endl;
+    std::filesystem::path inPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/GetWords_TICPP.cpp");
+    std::cout << "Input file path: " << inPath << std::endl;
 
-    ifstream in(inPath);
+    std::ifstream in(inPath);
     if (!in) {
-        cerr << "Error opening input file: " << strerror(errno) << endl;
+        std::cerr << "Error opening input file: " << strerror(errno) << std::endl;
         return;
     }
 
-    string word;
+    std::string word;
     while (in >> word)
         words.push_back(word);
 
     for (int i = 0; i < words.size(); i++)
-        cout << words[i] << endl;
+        std::cout << words[i] << std::endl;
 
 }

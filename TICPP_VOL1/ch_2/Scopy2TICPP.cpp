@@ -5,29 +5,27 @@
 #include <filesystem>
 #include <cstring>
 
-using namespace std;
-
 // Copy one file to another, a line at a time
 void testScopyTICPP() {
-    filesystem::path inPath = filesystem::absolute("../TICPP_VOL1/ch_2/Scopy_TICPP.cpp");
-    filesystem::path outPath = filesystem::absolute("../TICPP_VOL1/ch_2/Scopy2_TICPP.cpp");
+    std::filesystem::path inPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/Scopy_TICPP.cpp");
+    std::filesystem::path outPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/Scopy2_TICPP.cpp");
 
-    cout << "Input file path: " << inPath << endl;
-    cout << "Output file path: " << outPath << endl;
+    std::cout << "Input file path: " << inPath << std::endl;
+    std::cout << "Output file path: " << outPath << std::endl;
 
-    ifstream in(inPath);
+    std::ifstream in(inPath);
     if (!in) {
-        cerr << "Error opening input file: " << strerror(errno) << endl;
+        std::cerr << "Error opening input file: " << strerror(errno) << std::endl;
         return;
     }
 
-    ofstream out(outPath);
+    std::ofstream out(outPath);
     if (!out) {
-        cerr << "Error opening output file: " << strerror(errno) << endl;
+        std::cerr << "Error opening output file: " << strerror(errno) << std::endl;
         return;
     }
 
-    string s;
+    std::string s;
     while (getline(in, s))
         out << s << "\n";
 }

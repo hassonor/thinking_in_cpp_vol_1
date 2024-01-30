@@ -5,13 +5,11 @@
 #include "headers/StreamTICPP.h"
 #include <iostream>
 
-using namespace std;
-
 void testStreamTICPP() {
     // Specifying formats with manipulators;
-    cout << "a number in decimal: " << dec << 15 << endl;
-    cout << "in octal: " << oct << 15 << endl;
-    cout << "in hex: " << hex << 15 << endl;
-    cout << "a floating-point number: " << 3.14159 << endl;
-    cout << "non-printing char (escape): " << char(27) << endl;
+    std::cout << "a number in decimal: " << std::dec << 15 << std::endl;
+    std::cout << "in octal: " << std::oct << 15 << std::endl;
+    std::cout << "in hex: " << std::hex << 15 << std::endl;
+    std::cout << "a floating-point number: " << 3.14159 << std::endl;
+    std::cout << "non-printing char (escape): " << char(27) << std::endl;
 }

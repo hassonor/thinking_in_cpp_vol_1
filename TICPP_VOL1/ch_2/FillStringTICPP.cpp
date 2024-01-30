@@ -9,22 +9,20 @@
 #include <filesystem>
 #include <cstring>
 
-using namespace std;
-
 
 void testFillStringTICPP() {
-    filesystem::path inPath = filesystem::absolute("../TICPP_VOL1/ch_2/FillString_TICPP.cpp");
-    cout << "Input file path: " << inPath << endl;
+    std::filesystem::path inPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/FillString_TICPP.cpp");
+    std::cout << "Input file path: " << inPath << std::endl;
 
-    ifstream in(inPath);
+    std::ifstream in(inPath);
     if (!in) {
-        cerr << "Error opening input file: " << strerror(errno) << endl;
+        std::cerr << "Error opening input file: " << strerror(errno) << std::endl;
         return;
     }
 
-    string s, line;
+    std::string s, line;
     while (getline(in, line))
         s += line + "\n";
 
-    cout << s;
+    std::cout << s;
 }
