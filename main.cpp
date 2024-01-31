@@ -32,6 +32,7 @@
 #include "TICPP_VOL1/ch_5/headers/FriendStructTICPP.h"
 #include "TICPP_VOL1/ch_5/headers/NestedFriendTICPP.h"
 #include "TICPP_VOL1/ch_5/headers/ClassDemoTICPP.h"
+#include "TICPP_VOL1/ch_5/headers/StashClassTICPP.h"
 
 
 int main() {
@@ -80,6 +81,6 @@ int main() {
     friendStructDemo(); // 5.3
     testNestedFriendDemo(); // 5.4
     classDemoTest(); // 5.5
-
+    StashClassTestTICPP(); // 5.6
     return 0;
 }
