@@ -28,7 +28,12 @@
 #include "TICPP_VOL1/ch_4/headers/SizeOfStructTICPP.h"
 #include "TICPP_VOL1/ch_4/headers/StackNestedTICPP.h"
 
+
 int main() {
+
+    // Test WinSock Server
+//    testWinSocketDemo();
+
     // TICPP: Chapter 2
     testStreamTICPP();
     testHelloStringsTICPP();
