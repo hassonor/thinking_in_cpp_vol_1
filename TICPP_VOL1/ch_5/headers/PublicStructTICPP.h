@@ -6,7 +6,7 @@
 #define CPP_PLAYGROUND_2_PUBLICSTRUCTTICPP_H
 
 
-struct A_PublicStructTICPP {
+struct A_PublicStructDemo {
     int i;
     char j;
     float f;
@@ -14,7 +14,7 @@ struct A_PublicStructTICPP {
     void func();
 };
 
-struct B_PublicStructTICPP {
+struct B_PublicStructDemo {
 public:
     int i;
     char j;

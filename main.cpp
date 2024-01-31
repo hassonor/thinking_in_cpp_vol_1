@@ -28,6 +28,7 @@
 #include "TICPP_VOL1/ch_4/headers/SizeOfStructTICPP.h"
 #include "TICPP_VOL1/ch_4/headers/StackNestedTICPP.h"
 #include "TICPP_VOL1/ch_5/headers/PublicStructTICPP.h"
+#include "TICPP_VOL1/ch_5/headers/PrivateStructTICPP.h"
 
 
 int main() {
@@ -35,7 +36,7 @@ int main() {
     // Test WinSock Server
 //    testWinSocketDemo();
 
-    // TICPP: Chapter 2
+    // TICPP: Chapter 2 - Making & Using Objects
     testStreamTICPP();
     testHelloStringsTICPP();
     testScopyTICPP();
@@ -44,7 +45,7 @@ int main() {
     testGetWordsTICPP();
     testIntVectorTICPP();
 
-    // TICPP: Chapter 3
+    // TICPP: Chapter 3 - The C in C++
 //    testMenuTICPP(); // 3.1
 //    testMenu2TICPP(); // 3.2
     removeHat('A'); // 3.3
@@ -64,14 +65,15 @@ int main() {
     PointerToFunctionDemo(); // 3.17
 //    functionTableDemo(); // 3.18
 
-    // TICPP: Chapter 4
+    // TICPP: Chapter 4 - Data Abstraction
     CLibTestTICPP(); // 4.1
     CLib2TestTICPP(); // 4.2
     sizeOfStructDemo(); // 4.3
     stackNestedTest(); // 4.4
 
-    // TICPP: Chapter 5
-    testPublicStruct();
+    // TICPP: Chapter 5 - Hiding the Implementation
+    testPublicStruct(); // 5.1
+    testPublicAndPrivateStruct; // 5.2
 
     return 0;
 }
