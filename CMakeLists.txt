@@ -74,6 +74,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_5/FriendStructTICPP.cpp
         TICPP_VOL1/ch_5/headers/FriendStructTICPP.h
         TICPP_VOL1/ch_5/NestedFriendTICPP.cpp
-        TICPP_VOL1/ch_5/headers/NestedFriendTICPP.h)
+        TICPP_VOL1/ch_5/headers/NestedFriendTICPP.h
+        TICPP_VOL1/ch_5/ClassDemoTICPP.cpp
+        TICPP_VOL1/ch_5/headers/ClassDemoTICPP.h)
 
 target_link_libraries(cpp_playground_2 PRIVATE ws2_32)

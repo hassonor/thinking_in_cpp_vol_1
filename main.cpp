@@ -31,6 +31,7 @@
 #include "TICPP_VOL1/ch_5/headers/PrivateStructTICPP.h"
 #include "TICPP_VOL1/ch_5/headers/FriendStructTICPP.h"
 #include "TICPP_VOL1/ch_5/headers/NestedFriendTICPP.h"
+#include "TICPP_VOL1/ch_5/headers/ClassDemoTICPP.h"
 
 
 int main() {
@@ -78,6 +79,7 @@ int main() {
     testPublicAndPrivateStruct(); // 5.2
     friendStructDemo(); // 5.3
     testNestedFriendDemo(); // 5.4
+    classDemoTest(); // 5.5
 
     return 0;
 }
