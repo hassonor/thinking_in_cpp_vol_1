@@ -27,6 +27,7 @@
 #include "TICPP_VOL1/ch_4/headers/Clib2DemoTICPP.h"
 #include "TICPP_VOL1/ch_4/headers/SizeOfStructTICPP.h"
 #include "TICPP_VOL1/ch_4/headers/StackNestedTICPP.h"
+#include "TICPP_VOL1/ch_5/headers/PublicStructTICPP.h"
 
 
 int main() {
@@ -68,5 +69,9 @@ int main() {
     CLib2TestTICPP(); // 4.2
     sizeOfStructDemo(); // 4.3
     stackNestedTest(); // 4.4
+
+    // TICPP: Chapter 5
+    testPublicStruct();
+
     return 0;
 }

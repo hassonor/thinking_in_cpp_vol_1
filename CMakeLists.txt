@@ -66,6 +66,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_4/SizeOfStructTICPP.cpp
         TICPP_VOL1/ch_4/headers/SizeOfStructTICPP.h
         TICPP_VOL1/ch_4/StackNestedTICPP.cpp
-        TICPP_VOL1/ch_4/headers/StackNestedTICPP.h)
+        TICPP_VOL1/ch_4/headers/StackNestedTICPP.h
+        TICPP_VOL1/ch_5/PublicStructTICPP.cpp
+        TICPP_VOL1/ch_5/headers/PublicStructTICPP.h)
 
 target_link_libraries(cpp_playground_2 PRIVATE ws2_32)

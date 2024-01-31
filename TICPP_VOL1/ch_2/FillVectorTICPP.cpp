@@ -15,7 +15,7 @@
 void testFillVectorTICPP() {
     std::vector<std::string> v;
 
-    std::filesystem::path inPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/FillVector_TICPP.cpp");
+    std::filesystem::path inPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/FillVectorTICPP.cpp");
     std::cout << "Input file path: " << inPath << std::endl;
 
     std::ifstream in(inPath);

@@ -7,8 +7,8 @@
 
 // Copy one file to another, a line at a time
 void testScopyTICPP() {
-    std::filesystem::path inPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/Scopy_TICPP.cpp");
-    std::filesystem::path outPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/Scopy2_TICPP.cpp");
+    std::filesystem::path inPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/ScopyTICPP.cpp");
+    std::filesystem::path outPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/Scopy2TICPP.cpp");
 
     std::cout << "Input file path: " << inPath << std::endl;
     std::cout << "Output file path: " << outPath << std::endl;

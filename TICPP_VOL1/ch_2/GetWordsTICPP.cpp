@@ -14,7 +14,7 @@
 void testGetWordsTICPP() {
     std::vector<std::string> words;
 
-    std::filesystem::path inPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/GetWords_TICPP.cpp");
+    std::filesystem::path inPath = std::filesystem::absolute("../TICPP_VOL1/ch_2/GetWordsTICPP.cpp");
     std::cout << "Input file path: " << inPath << std::endl;
 
     std::ifstream in(inPath);
