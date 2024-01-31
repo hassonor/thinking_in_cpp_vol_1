@@ -29,6 +29,7 @@
 #include "TICPP_VOL1/ch_4/headers/StackNestedTICPP.h"
 #include "TICPP_VOL1/ch_5/headers/PublicStructTICPP.h"
 #include "TICPP_VOL1/ch_5/headers/PrivateStructTICPP.h"
+#include "TICPP_VOL1/ch_5/headers/FriendStructTICPP.h"
 
 
 int main() {
@@ -73,7 +74,8 @@ int main() {
 
     // TICPP: Chapter 5 - Hiding the Implementation
     testPublicStruct(); // 5.1
-    testPublicAndPrivateStruct; // 5.2
+    testPublicAndPrivateStruct(); // 5.2
+    friendStructDemo(); // 5.3
 
     return 0;
 }
