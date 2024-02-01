@@ -80,6 +80,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_5/StashClassTICPP.cpp
         TICPP_VOL1/ch_5/headers/StashClassTICPP.h
         TICPP_VOL1/ch_5/HandleDemoTICPP.cpp
-        TICPP_VOL1/ch_5/headers/HandleDemoTICPP.h)
+        TICPP_VOL1/ch_5/headers/HandleDemoTICPP.h
+        TICPP_VOL1/ch_2/CH2SolutionsTICPP.cpp
+        TICPP_VOL1/ch_2/headers/CH2SolutionsTICPP.h)
 
 target_link_libraries(cpp_playground_2 PRIVATE ws2_32)
