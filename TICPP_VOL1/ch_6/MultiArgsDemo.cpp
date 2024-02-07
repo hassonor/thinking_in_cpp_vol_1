@@ -17,7 +17,7 @@ void Z2::print() {
 
 void testMultiArgs(){
     Z2 zz[] = {Z2(1,2),Z2(3,4),Z2(5,6),Z2(7,8)};
-    for(int i = 0; sizeof zz / sizeof *zz; i++){
+    for(int i = 0;  i < sizeof zz / sizeof *zz; i++){
         zz[i].print();
     }
 }

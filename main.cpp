@@ -36,6 +36,7 @@
 #include "TICPP_VOL1/ch_6/headers/Stash2Ch6.h"
 #include "TICPP_VOL1/ch_6/headers/StackCh6.h"
 #include "TICPP_VOL1/ch_6/headers/MultiArgsDemo.h"
+#include "TICPP_VOL1/ch_11/headers/FreeStandingReferences.h"
 
 
 int main() {
@@ -91,5 +92,8 @@ int main() {
     testStash2Ch6(); // 6.1
     testStackCh6(); // 6.2
     testMultiArgs(); // 6.3
+
+    // TICPP: Chapter 11 - References & the Copy-Constructor
+    FreeStandingReferencesDemo(); // 11.1
     return 0;
 }
