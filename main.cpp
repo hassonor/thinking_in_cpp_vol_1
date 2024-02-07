@@ -39,6 +39,7 @@
 #include "TICPP_VOL1/ch_11/headers/FreeStandingReferences.h"
 #include "TICPP_VOL1/ch_11/headers/HowMany2Demo.h"
 #include "TICPP_VOL1/ch_11/headers/ReferenceDemo.h"
+#include "TICPP_VOL1/ch_11/headers/DefaultCopyConstructor.h"
 
 
 int main() {
@@ -99,5 +100,6 @@ int main() {
     FreeStandingReferencesDemo(); // 11.1
     referenceDemoRun(); // 11.2
     testHowMany2Demo(); // 11.3
+    testComposite(); // 11.4
     return 0;
 }
