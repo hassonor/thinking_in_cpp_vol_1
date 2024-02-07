@@ -35,6 +35,7 @@
 #include "TICPP_VOL1/ch_5/headers/HandleDemoTICPP.h"
 #include "TICPP_VOL1/ch_6/headers/Stash2Ch6.h"
 #include "TICPP_VOL1/ch_6/headers/StackCh6.h"
+#include "TICPP_VOL1/ch_6/headers/MultiArgsDemo.h"
 
 
 int main() {
@@ -89,5 +90,6 @@ int main() {
     // TICPP: Chapter 6 - Initialization & Cleanup
     testStash2Ch6(); // 6.1
     testStackCh6(); // 6.2
+    testMultiArgs(); // 6.3
     return 0;
 }

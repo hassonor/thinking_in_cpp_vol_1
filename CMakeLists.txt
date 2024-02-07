@@ -83,4 +83,6 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_6/Stash2Ch6.cpp
         TICPP_VOL1/ch_6/headers/Stash2Ch6.h
         TICPP_VOL1/ch_6/StackCh6.cpp
-        TICPP_VOL1/ch_6/headers/StackCh6.h)
+        TICPP_VOL1/ch_6/headers/StackCh6.h
+        TICPP_VOL1/ch_6/MultiArgsDemo.cpp
+        TICPP_VOL1/ch_6/headers/MultiArgsDemo.h)
