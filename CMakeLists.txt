@@ -4,7 +4,6 @@ project(cpp_playground_2)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(cpp_playground_2 main.cpp
-        oop_programming_c_4th/ch_2__cpp_programming_basics/charvars.cpp
         TICPP_VOL1/ch_2/StreamTICPP.cpp
         TICPP_VOL1/ch_2/headers/StreamTICPP.h
         TICPP_VOL1/ch_2/HelloStringsTICPP.cpp
@@ -19,8 +18,6 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_2/headers/GetWordsTICPP.h
         TICPP_VOL1/ch_2/IntVectorTICPP.cpp
         TICPP_VOL1/ch_2/headers/IntVectorTICPP.h
-        notes/server_winsock.cpp
-        notes/server_winsock.h
         TICPP_VOL1/ch_3/MenuTICPP.cpp
         TICPP_VOL1/ch_3/headers/MenuTICPP.h
         TICPP_VOL1/ch_3/Menu2TICPP.cpp
@@ -82,6 +79,6 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_5/HandleDemoTICPP.cpp
         TICPP_VOL1/ch_5/headers/HandleDemoTICPP.h
         TICPP_VOL1/ch_2/CH2SolutionsTICPP.cpp
-        TICPP_VOL1/ch_2/headers/CH2SolutionsTICPP.h)
-
-target_link_libraries(cpp_playground_2 PRIVATE ws2_32)
+        TICPP_VOL1/ch_2/headers/CH2SolutionsTICPP.h
+        TICPP_VOL1/ch_6/Stash2Ch6.cpp
+        TICPP_VOL1/ch_6/headers/Stash2Ch6.h)

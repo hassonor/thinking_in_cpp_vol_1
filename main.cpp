@@ -5,7 +5,6 @@
 #include "TICPP_VOL1/ch_2/headers/FillVectorTICPP.h"
 #include "TICPP_VOL1/ch_2/headers/GetWordsTICPP.h"
 #include "TICPP_VOL1/ch_2/headers/IntVectorTICPP.h"
-#include "notes/server_winsock.h"
 #include "TICPP_VOL1/ch_3/headers/MenuTICPP.h"
 #include "TICPP_VOL1/ch_3/headers/Menu2TICPP.h"
 #include "TICPP_VOL1/ch_3/headers/CatsInHatsTICPP.h"
@@ -34,6 +33,7 @@
 #include "TICPP_VOL1/ch_5/headers/ClassDemoTICPP.h"
 #include "TICPP_VOL1/ch_5/headers/StashClassTICPP.h"
 #include "TICPP_VOL1/ch_5/headers/HandleDemoTICPP.h"
+#include "TICPP_VOL1/ch_6/headers/Stash2Ch6.h"
 
 
 int main() {
@@ -84,5 +84,8 @@ int main() {
     classDemoTest(); // 5.5
     StashClassTestTICPP(); // 5.6
     useHandleTest(); // 5.7
+
+    // TICPP: Chapter 6 - Initialization & Cleanup
+    testStash2Ch6(); // 6.1
     return 0;
 }
