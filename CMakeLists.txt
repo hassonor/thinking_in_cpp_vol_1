@@ -87,4 +87,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_6/MultiArgsDemo.cpp
         TICPP_VOL1/ch_6/headers/MultiArgsDemo.h
         TICPP_VOL1/ch_11/FreeStandingReferences.cpp
-        TICPP_VOL1/ch_11/headers/FreeStandingReferences.h)
+        TICPP_VOL1/ch_11/headers/FreeStandingReferences.h
+        TICPP_VOL1/ch_11/ReferenceDemo.cpp
+        TICPP_VOL1/ch_11/headers/ReferenceDemo.h
+        TICPP_VOL1/ch_11/HowMany2Demo.cpp
+        TICPP_VOL1/ch_11/headers/HowMany2Demo.h)

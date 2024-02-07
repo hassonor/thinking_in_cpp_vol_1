@@ -37,6 +37,8 @@
 #include "TICPP_VOL1/ch_6/headers/StackCh6.h"
 #include "TICPP_VOL1/ch_6/headers/MultiArgsDemo.h"
 #include "TICPP_VOL1/ch_11/headers/FreeStandingReferences.h"
+#include "TICPP_VOL1/ch_11/headers/HowMany2Demo.h"
+#include "TICPP_VOL1/ch_11/headers/ReferenceDemo.h"
 
 
 int main() {
@@ -95,5 +97,7 @@ int main() {
 
     // TICPP: Chapter 11 - References & the Copy-Constructor
     FreeStandingReferencesDemo(); // 11.1
+    referenceDemoRun(); // 11.2
+    testHowMany2Demo(); // 11.3
     return 0;
 }

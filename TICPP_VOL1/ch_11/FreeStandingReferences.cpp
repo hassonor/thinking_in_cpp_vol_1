@@ -22,5 +22,14 @@ void FreeStandingReferencesDemo(){
     std::cout << "x = " << x << " , a = " << a << std::endl;
     a++;
     std::cout << "x = " << x << " , a = " << a << std::endl;
-
 }
+
+/*
+ *  Rules when using references:
+ *  1. A reference must be initialized when it is created. (Pointers can be initialized at any time)
+ *  2. One a reference is initialized to an object, it cannot be changed to refer to another object.
+ *  (Pointers can be pointed to another object at any time).
+ *  3. You cannot have NULL references.
+ *  You must always be able to assume that a reference is connected to a legitimate piece of storage
+ *
+ */
