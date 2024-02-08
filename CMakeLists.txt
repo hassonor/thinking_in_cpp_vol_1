@@ -93,4 +93,6 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_11/HowMany2Demo.cpp
         TICPP_VOL1/ch_11/headers/HowMany2Demo.h
         TICPP_VOL1/ch_11/DefaultCopyConstructor.cpp
-        TICPP_VOL1/ch_11/headers/DefaultCopyConstructor.h)
+        TICPP_VOL1/ch_11/headers/DefaultCopyConstructor.h
+        TICPP_VOL1/ch_11/PointerToMemberData.cpp
+        TICPP_VOL1/ch_11/headers/PointerToMemberData.h)
