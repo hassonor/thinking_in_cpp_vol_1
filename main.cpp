@@ -40,6 +40,10 @@
 #include "TICPP_VOL1/ch_11/headers/HowMany2Demo.h"
 #include "TICPP_VOL1/ch_11/headers/ReferenceDemo.h"
 #include "TICPP_VOL1/ch_11/headers/DefaultCopyConstructor.h"
+#include "TICPP_VOL1/ch_11/headers/PointerToMemberData.h"
+#include "TICPP_VOL1/ch_13/headers/Tree2Demo.h"
+#include "TICPP_VOL1/ch_13/headers/MallocClassDemo.h"
+#include "TICPP_VOL1/ch_13/headers/PStash.h"
 
 
 int main() {
@@ -101,5 +105,11 @@ int main() {
     referenceDemoRun(); // 11.2
     testHowMany2Demo(); // 11.3
     testComposite(); // 11.4
+    testDataClass(); // 11.5
+
+    // TICPP: Chapter 13 - Dynamic Object Creation
+    testObjMDemo(); // 13.1
+    tree2Demo(); // 13.2
+    testPStash(); // 13.3
     return 0;
 }

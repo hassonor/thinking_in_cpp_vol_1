@@ -1,0 +1,12 @@
+//
+// Created by Or on 2/8/2024.
+//
+
+#ifndef CPP_PLAYGROUND_2_MALLOCCLASSDEMO_H
+#define CPP_PLAYGROUND_2_MALLOCCLASSDEMO_H
+
+
+void testObjMDemo();
+
+
+#endif //CPP_PLAYGROUND_2_MALLOCCLASSDEMO_H

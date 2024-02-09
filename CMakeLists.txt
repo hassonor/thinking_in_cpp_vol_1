@@ -95,4 +95,10 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_11/DefaultCopyConstructor.cpp
         TICPP_VOL1/ch_11/headers/DefaultCopyConstructor.h
         TICPP_VOL1/ch_11/PointerToMemberData.cpp
-        TICPP_VOL1/ch_11/headers/PointerToMemberData.h)
+        TICPP_VOL1/ch_11/headers/PointerToMemberData.h
+        TICPP_VOL1/ch_13/MallocClassDemo.cpp
+        TICPP_VOL1/ch_13/headers/MallocClassDemo.h
+        TICPP_VOL1/ch_13/Tree2Demo.cpp
+        TICPP_VOL1/ch_13/headers/Tree2Demo.h
+        TICPP_VOL1/ch_13/PStash.cpp
+        TICPP_VOL1/ch_13/headers/PStash.h)
