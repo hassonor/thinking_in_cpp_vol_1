@@ -44,6 +44,7 @@
 #include "TICPP_VOL1/ch_13/headers/Tree2Demo.h"
 #include "TICPP_VOL1/ch_13/headers/MallocClassDemo.h"
 #include "TICPP_VOL1/ch_13/headers/PStash.h"
+#include "TICPP_VOL1/ch_14/headers/NameHiding.h"
 
 
 int main() {
@@ -111,5 +112,9 @@ int main() {
     testObjMDemo(); // 13.1
     tree2Demo(); // 13.2
     testPStash(); // 13.3
+
+    // TICPP: Chapter 14 - Inheritance & Composition
+    testNameHiding(); // 14.1
+
     return 0;
 }

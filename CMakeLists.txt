@@ -101,4 +101,6 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_13/Tree2Demo.cpp
         TICPP_VOL1/ch_13/headers/Tree2Demo.h
         TICPP_VOL1/ch_13/PStash.cpp
-        TICPP_VOL1/ch_13/headers/PStash.h)
+        TICPP_VOL1/ch_13/headers/PStash.h
+        TICPP_VOL1/ch_14/NameHiding.cpp
+        TICPP_VOL1/ch_14/headers/NameHiding.h)
