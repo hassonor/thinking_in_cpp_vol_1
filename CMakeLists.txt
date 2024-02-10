@@ -105,4 +105,6 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_14/NameHiding.cpp
         TICPP_VOL1/ch_14/headers/NameHiding.h
         TICPP_VOL1/ch_14/StringStack.cpp
-        TICPP_VOL1/ch_14/headers/StringStack.h)
+        TICPP_VOL1/ch_14/headers/StringStack.h
+        TICPP_VOL1/ch_14/GameBoardDemo.cpp
+        TICPP_VOL1/ch_14/headers/GameBoardDemo.h)

@@ -46,6 +46,7 @@
 #include "TICPP_VOL1/ch_13/headers/PStash.h"
 #include "TICPP_VOL1/ch_14/headers/NameHiding.h"
 #include "TICPP_VOL1/ch_14/headers/StringStack.h"
+#include "TICPP_VOL1/ch_14/headers/GameBoardDemo.h"
 
 
 int main() {
@@ -54,39 +55,39 @@ int main() {
 //    testWinSocketDemo();
 
     // TICPP: Chapter 2 - Making & Using Objects
-    testStreamTICPP();
-    testHelloStringsTICPP();
-    testScopyTICPP();
-    testFillStringTICPP();
-    testFillVectorTICPP();
-    testGetWordsTICPP();
-    testIntVectorTICPP();
+//    testStreamTICPP();
+//    testHelloStringsTICPP();
+//    testScopyTICPP();
+//    testFillStringTICPP();
+//    testFillVectorTICPP();
+//    testGetWordsTICPP();
+//    testIntVectorTICPP();
 
     // TICPP: Chapter 3 - The C in C++
 //    testMenuTICPP(); // 3.1
 //    testMenu2TICPP(); // 3.2
-    removeHat('A'); // 3.3
-    demoSpecifyTICPP(); // 3.4
-    passByValueDemo(); // 3.5
-    passByAddressDemo(); // 3.6
-    passByReferenceDemo(); // 3.7
-//    mathOpsDemo(); // 3.8
+//    removeHat('A'); // 3.3
+//    demoSpecifyTICPP(); // 3.4
+//    passByValueDemo(); // 3.5
+//    passByAddressDemo(); // 3.6
+//    passByReferenceDemo(); // 3.7
+////    mathOpsDemo(); // 3.8
 //    printBinaryDemo(255); // 3.9
 //    bitwiseDemoTICPP(); // 3.10
-    reinterpretCastDemo(); // 3.11
-    simpleStructDemo(); // 3.12
-    arraysIntroDemoTICPP(); // 3.13
-    pointerIncrementDemo1(); // 3.14
-    pointerIncrementDemo2(); // 3.15
-    pointerArithmeticDemo(); // 3.16
-    PointerToFunctionDemo(); // 3.17
+//    reinterpretCastDemo(); // 3.11
+//    simpleStructDemo(); // 3.12
+//    arraysIntroDemoTICPP(); // 3.13
+//    pointerIncrementDemo1(); // 3.14
+//    pointerIncrementDemo2(); // 3.15
+//    pointerArithmeticDemo(); // 3.16
+//    PointerToFunctionDemo(); // 3.17
 //    functionTableDemo(); // 3.18
 
     // TICPP: Chapter 4 - Data Abstraction
-    CLibTestTICPP(); // 4.1
-    CLib2TestTICPP(); // 4.2
-    sizeOfStructDemo(); // 4.3
-    stackNestedTest(); // 4.4
+//    CLibTestTICPP(); // 4.1
+//    CLib2TestTICPP(); // 4.2
+//    sizeOfStructDemo(); // 4.3
+//    stackNestedTest(); // 4.4
 
     // TICPP: Chapter 5 - Hiding the Implementation
     testPublicStruct(); // 5.1
@@ -117,6 +118,7 @@ int main() {
     // TICPP: Chapter 14 - Inheritance & Composition
     testNameHiding(); // 14.1
     testStringStack(); // 14.2
+    testGameBoardDemo(); // 14.3
 
     return 0;
 }
