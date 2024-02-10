@@ -45,6 +45,7 @@
 #include "TICPP_VOL1/ch_13/headers/MallocClassDemo.h"
 #include "TICPP_VOL1/ch_13/headers/PStash.h"
 #include "TICPP_VOL1/ch_14/headers/NameHiding.h"
+#include "TICPP_VOL1/ch_14/headers/StringStack.h"
 
 
 int main() {
@@ -115,6 +116,7 @@ int main() {
 
     // TICPP: Chapter 14 - Inheritance & Composition
     testNameHiding(); // 14.1
+    testStringStack(); // 14.2
 
     return 0;
 }

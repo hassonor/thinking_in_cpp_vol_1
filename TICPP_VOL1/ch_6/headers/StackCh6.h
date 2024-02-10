@@ -7,17 +7,24 @@
 
 
 class StackCh6 {
-    struct Link{
+    struct Link {
         void* data;
         Link* next;
+
         Link(void* _data, Link* _next);
+
         ~Link();
     } * head;
+
 public:
     StackCh6();
+
     ~StackCh6();
+
     void push(void* _date);
-    void* peek();
+
+    void* peek() const;
+
     void* pop();
 };
 

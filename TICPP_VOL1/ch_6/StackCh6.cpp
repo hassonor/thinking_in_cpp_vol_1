@@ -10,27 +10,27 @@
 #include <cstring>
 
 
-StackCh6::Link::Link(void * _data, Link* _next){
+StackCh6::Link::Link(void* _data, Link* _next) {
     data = _data;
     next = _next;
 }
 
-StackCh6::Link::~Link(){}
+StackCh6::Link::~Link() {}
 
-StackCh6::StackCh6() {head = 0;}
+StackCh6::StackCh6() { head = 0; }
 
-void StackCh6::push(void* _data){
+void StackCh6::push(void* _data) {
     head = new Link(_data, head);
 }
 
-void* StackCh6::peek() {
+void* StackCh6::peek() const {
     assert(head != nullptr);
     return head->data;
 }
 
-void* StackCh6::pop(){
-    if(head == nullptr) return nullptr;
-    void * result = head->data;
+void* StackCh6::pop() {
+    if (head == nullptr) return nullptr;
+    void* result = head->data;
     Link* oldHead = head;
     head = head->next;
     delete oldHead;
@@ -41,7 +41,7 @@ StackCh6::~StackCh6() {
     assert(head == nullptr);
 }
 
-void testStackCh6(){
+void testStackCh6() {
     std::filesystem::path inPath = std::filesystem::absolute("../TICPP_VOL1/ch_6/Stash2Ch6.cpp");
     std::cout << "Input file path: " << inPath << std::endl;
     std::ifstream in(inPath);
@@ -55,12 +55,12 @@ void testStackCh6(){
     std::string line;
 
     // Read file and store lines in the stack
-    while(getline(in,line))
+    while (getline(in, line))
         textlines.push(new std::string(line));
 
     // Pop the lines from the stack and print them
-    std::string *s;
-    while((s = (std::string*)textlines.pop()) != nullptr){
+    std::string* s;
+    while ((s = (std::string*) textlines.pop()) != nullptr) {
         std::cout << *s << std::endl;
         delete s;
     }
