@@ -107,4 +107,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_14/StringStack.cpp
         TICPP_VOL1/ch_14/headers/StringStack.h
         TICPP_VOL1/ch_14/GameBoardDemo.cpp
-        TICPP_VOL1/ch_14/headers/GameBoardDemo.h)
+        TICPP_VOL1/ch_14/headers/GameBoardDemo.h
+        TICPP_VOL1/ch_14/Car.cpp
+        TICPP_VOL1/ch_14/headers/Car.h
+        TICPP_VOL1/classEx/StackC1.cpp
+        TICPP_VOL1/classEx/headers/StackC1.h)

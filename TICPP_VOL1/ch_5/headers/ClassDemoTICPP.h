@@ -1,7 +1,7 @@
 //
 // Created by Or on 1/31/2024.
 //
-// Similarity of struct and class
+// Similarity of struct and classEx
 
 #ifndef CPP_PLAYGROUND_2_CLASSDEMOTICPP_H
 #define CPP_PLAYGROUND_2_CLASSDEMOTICPP_H

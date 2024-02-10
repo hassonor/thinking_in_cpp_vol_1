@@ -47,6 +47,7 @@
 #include "TICPP_VOL1/ch_14/headers/NameHiding.h"
 #include "TICPP_VOL1/ch_14/headers/StringStack.h"
 #include "TICPP_VOL1/ch_14/headers/GameBoardDemo.h"
+#include "TICPP_VOL1/classEx/headers/StackC1.h"
 
 
 int main() {
@@ -119,6 +120,11 @@ int main() {
     testNameHiding(); // 14.1
     testStringStack(); // 14.2
     testGameBoardDemo(); // 14.3
+
+
+
+    // Class Examples
+    testStackC1();
 
     return 0;
 }

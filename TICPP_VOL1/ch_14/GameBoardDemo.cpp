@@ -46,7 +46,7 @@ public:
     }
 
     class Other {
-    }; // Nested class
+    }; // Nested classEx
     // Automatic type conversion:
     operator Other() const {
         std::cout << "Game::operator Other()\n";
@@ -63,10 +63,10 @@ void f(Game::Other) {}
 
 class Checkers : public Game {
 public:
-    // Default base-class constructor called:
+    // Default base-classEx constructor called:
     Checkers() { std::cout << "Checkers()\n"; }
 
-    // You must explicitly call the base-class
+    // You must explicitly call the base-classEx
     // copy constructor or the default constructor
     // will be automatically called instead:
     Checkers(const Checkers& c) : Game(c) {
@@ -74,8 +74,8 @@ public:
     }
 
     Checkers& operator=(const Checkers& c) {
-        // You must explicitly call the base-class
-        // version of operator=() or no base-class assignment will happen:
+        // You must explicitly call the base-classEx
+        // version of operator=() or no base-classEx assignment will happen:
         Game::operator=(c);
         std::cout << "Checkers::operator=()\n";
         return *this;
