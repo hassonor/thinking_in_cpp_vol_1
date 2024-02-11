@@ -3,6 +3,7 @@
 //
 
 #include "headers/ByteDemo.h"
+#include "headers/Byte2.h"
 #include <iostream>
 #include <iomanip>
 #include <cassert>
@@ -145,25 +146,18 @@ void ByteCh14::print(std::ostream& os) const {
     os << "0x" << std::hex << +b << std::dec; // Using unary + to promote char to int for
 }
 
-class Byte2 : public ByteCh14 {
-public:
-    // Constructors don't inherit:
-    Byte2(unsigned char bb = 0) : ByteCh14(bb) {}
+Byte2::Byte2(unsigned char bb) : ByteCh14(bb) {}
 
-    // operator= does not inherit, but
-    // is synthesized for memberwise assignment.
-    // However, only the sametype = SameType
-    // operator= is synthesized, so you have to make the other explicitly:
-    Byte2& operator=(const ByteCh14& right) {
-        ByteCh14::operator=(right);
-        return *this;
-    }
+Byte2& Byte2::operator=(const ByteCh14& right) {
+    ByteCh14::operator=(right);
+    return *this;
+}
 
-    Byte2& operator=(int i) {
-        ByteCh14::operator=(i);
-        return *this;
-    }
-};
+Byte2& Byte2::operator=(int i) {
+    ByteCh14::operator=(static_cast<unsigned char>(i));
+    return *this;
+}
+
 
 // Function to attempt an operation and print the result
 void TRY2(Byte2& b1, Byte2& b2, std::ostream& os, const std::string& op) {
