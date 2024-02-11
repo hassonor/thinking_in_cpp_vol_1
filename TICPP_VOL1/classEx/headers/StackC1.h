@@ -20,6 +20,18 @@ public:
     bool isEmpty();
 
     ~StackC1();
+
+    virtual void print();
+};
+
+class SecureStackC1 : public StackC1 {
+    int _secretKey;
+public:
+    SecureStackC1() {
+        _secretKey = 0x55;
+    }
+
+    void print();
 };
 
 void testStackC1();

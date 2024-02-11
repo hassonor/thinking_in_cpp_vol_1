@@ -2,6 +2,7 @@
 // Created by Or on 2/10/2024.
 //
 
+#include <iostream>
 #include "headers/StackC1.h"
 
 
@@ -30,12 +31,26 @@ void StackC1::push(int value) {
 
 }
 
+void StackC1::print() {
+    std::cout << "print StackC1" << std::endl;
+}
+
+void SecureStackC1::print() {
+    std::cout << "print SecureStackC1" << std::endl;
+}
+
 StackC1::~StackC1() {
     delete[] _data;
 }
 
+
 void testStackC1() {
     StackC1 s1;
+    s1.print();
+    SecureStackC1 s3;
+    StackC1* sptr;
+    sptr = &s3;
+    sptr->print();
     StackC1* s2 = new StackC1();
     delete s2;
 }
