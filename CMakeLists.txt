@@ -115,4 +115,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_14/FName1.cpp
         TICPP_VOL1/ch_14/headers/FName1.h
         TICPP_VOL1/ch_14/PrivateInheritance.cpp
-        TICPP_VOL1/ch_14/headers/PrivateInheritance.h)
+        TICPP_VOL1/ch_14/headers/PrivateInheritance.h
+        TICPP_VOL1/ch_14/ProtectedDemo.cpp
+        TICPP_VOL1/ch_14/headers/ProtectedDemo.h
+        TICPP_VOL1/ch_14/ByteDemo.cpp
+        TICPP_VOL1/ch_14/headers/ByteDemo.h)
