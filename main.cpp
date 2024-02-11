@@ -51,6 +51,7 @@
 #include "TICPP_VOL1/ch_14/headers/FName1.h"
 #include "TICPP_VOL1/ch_14/headers/PrivateInheritance.h"
 #include "TICPP_VOL1/ch_14/headers/ProtectedDemo.h"
+#include "TICPP_VOL1/ch_14/headers/ByteDemo.h"
 
 
 int main() {
@@ -127,6 +128,7 @@ int main() {
     */
     testPrivateInheritance(); // 14.5
     protectedExampleDemo(); // 14.6
+    testByteDemo(); // 14.7
 
     // Class Examples
     testStackC1();
