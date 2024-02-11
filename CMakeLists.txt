@@ -120,6 +120,4 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_14/headers/ProtectedDemo.h
         TICPP_VOL1/ch_14/ByteDemo.cpp
         TICPP_VOL1/ch_14/headers/ByteDemo.h
-        TICPP_VOL1/ch_14/InstrumentDemo.cpp
-        TICPP_VOL1/ch_14/headers/InstrumentDemo.h
         TICPP_VOL1/ch_14/headers/Byte2.h)
