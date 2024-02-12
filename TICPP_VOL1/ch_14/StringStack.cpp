@@ -10,15 +10,15 @@
 #include <cstring>
 
 void StringStack::push(std::string* str) {
-    StackCh6::push(str);
+    stack.push(str);
 }
 
 std::string* StringStack::peek() const {
-    return (std::string*) StackCh6::peek();
+    return (std::string*) stack.peek();
 }
 
 std::string* StringStack::pop() {
-    return (std::string*) StackCh6::pop();
+    return (std::string*) stack.pop();
 }
 
 StringStack::~StringStack() {

@@ -52,6 +52,7 @@
 #include "TICPP_VOL1/ch_14/headers/PrivateInheritance.h"
 #include "TICPP_VOL1/ch_14/headers/ProtectedDemo.h"
 #include "TICPP_VOL1/ch_14/headers/ByteDemo.h"
+#include "TICPP_VOL1/ch_14/headers/CopyConstructorDemo.h"
 
 
 int main() {
@@ -125,10 +126,11 @@ int main() {
     testStringStack(); // 14.2
     testGameBoardDemo(); // 14.3
     testFName1(); // 14.4
-    */
     testPrivateInheritance(); // 14.5
     protectedExampleDemo(); // 14.6
     testByteDemo(); // 14.7
+        */
+    testCCUpCastingDemo(); // 14.8
 
     // Class Examples
     testStackC1();

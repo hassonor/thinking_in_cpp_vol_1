@@ -8,7 +8,8 @@
 #include "../../ch_6/headers/StackCh6.h"
 #include <string>
 
-class StringStack : public StackCh6 {
+class StringStack {
+    StackCh6 stack;
 public:
     void push(std::string* str);
 
