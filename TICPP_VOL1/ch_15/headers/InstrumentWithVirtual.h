@@ -1,0 +1,12 @@
+//
+// Created by Or on 2/12/2024.
+//
+
+#ifndef CPP_PLAYGROUND_2_INSTRUMENTWITHVIRTUAL_H
+#define CPP_PLAYGROUND_2_INSTRUMENTWITHVIRTUAL_H
+
+
+void testInstrumentWithVirtual();
+
+
+#endif //CPP_PLAYGROUND_2_INSTRUMENTWITHVIRTUAL_H
