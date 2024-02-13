@@ -11,16 +11,12 @@ enum note {
 
 class Instrument {
 public:
-    virtual void play(note) const {
-        std::cout << "Instrument::play" << std::endl;
-    }
+    virtual void play(note) const = 0;
 
-    virtual const std::basic_string<char> what() const {
-        return static_cast<std::string>("Instrument");
-    }
+    virtual const std::basic_string<char> what() const = 0;
 
     // Assume this will modify the object:
-    virtual void adjust(int) {}
+    virtual void adjust(int) = 0;
 };
 
 // WindCh15 objects are InstrumentCh15
@@ -110,6 +106,7 @@ void testInstrumentWithVirtual() {
             new Brass,
     };
 
+    //! Instrument i2; Error! Instrument is an abstract class.
     Wind flute2;
     Percussion drum;
     Stringed violin;
