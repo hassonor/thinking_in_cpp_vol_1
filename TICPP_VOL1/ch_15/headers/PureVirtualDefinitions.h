@@ -1,0 +1,12 @@
+//
+// Created by Or on 2/13/2024.
+//
+
+#ifndef CPP_PLAYGROUND_2_PUREVIRTUALDEFINITIONS_H
+#define CPP_PLAYGROUND_2_PUREVIRTUALDEFINITIONS_H
+
+
+void testPureVirtualDefinitions();
+
+
+#endif //CPP_PLAYGROUND_2_PUREVIRTUALDEFINITIONS_H

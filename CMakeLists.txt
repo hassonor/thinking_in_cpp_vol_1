@@ -124,4 +124,6 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_14/CopyConstructorDemo.cpp
         TICPP_VOL1/ch_14/headers/CopyConstructorDemo.h
         TICPP_VOL1/ch_15/InstrumentWithVirtual.cpp
-        TICPP_VOL1/ch_15/headers/InstrumentWithVirtual.h)
+        TICPP_VOL1/ch_15/headers/InstrumentWithVirtual.h
+        TICPP_VOL1/ch_15/PureVirtualDefinitions.cpp
+        TICPP_VOL1/ch_15/headers/PureVirtualDefinitions.h)
