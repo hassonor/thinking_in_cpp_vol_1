@@ -55,6 +55,7 @@
 #include "TICPP_VOL1/ch_14/headers/CopyConstructorDemo.h"
 #include "TICPP_VOL1/ch_15/headers/InstrumentWithVirtual.h"
 #include "TICPP_VOL1/ch_15/headers/PureVirtualDefinitions.h"
+#include "TICPP_VOL1/ch_15/headers/AddingVirtuals.h"
 
 
 int main() {
@@ -137,6 +138,7 @@ int main() {
     // TICPP: Chapter 15 - Polymorphism & Virtual Functions
     testInstrumentWithVirtual(); // 15.1
     testPureVirtualDefinitions(); // 15.2
+    testAddingVirtuals(); // 15.3
 
     // Class Examples
 //    testStackC1();
