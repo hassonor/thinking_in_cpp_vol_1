@@ -130,4 +130,6 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_15/AddingVirtuals.cpp
         TICPP_VOL1/ch_15/headers/AddingVirtuals.h
         TICPP_VOL1/ch_15/ObjectSlicing.cpp
-        TICPP_VOL1/ch_15/headers/ObjectSlicing.h)
+        TICPP_VOL1/ch_15/headers/ObjectSlicing.h
+        TICPP_VOL1/ch_15/OverloadingAndOverridingAndVirtuals.cpp
+        TICPP_VOL1/ch_15/headers/OverloadingAndOverridingAndVirtuals.h)

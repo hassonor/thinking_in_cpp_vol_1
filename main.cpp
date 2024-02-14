@@ -57,6 +57,7 @@
 #include "TICPP_VOL1/ch_15/headers/PureVirtualDefinitions.h"
 #include "TICPP_VOL1/ch_15/headers/AddingVirtuals.h"
 #include "TICPP_VOL1/ch_15/headers/ObjectSlicing.h"
+#include "TICPP_VOL1/ch_15/headers/OverloadingAndOverridingAndVirtuals.h"
 
 
 int main() {
@@ -141,6 +142,7 @@ int main() {
     testPureVirtualDefinitions(); // 15.2
     testAddingVirtuals(); // 15.3
     objectSlicingDemo(); // 15.4
+    overloadingAndOverridingAndVirtualsDemo(); // 15.5
 
     // Class Examples
 //    testStackC1();
