@@ -59,6 +59,7 @@
 #include "TICPP_VOL1/ch_15/headers/ObjectSlicing.h"
 #include "TICPP_VOL1/ch_15/headers/OverloadingAndOverridingAndVirtuals.h"
 #include "TICPP_VOL1/ch_15/headers/VariantReturn.h"
+#include "TICPP_VOL1/ch_15/headers/VirtualDestructors.h"
 
 
 int main() {
@@ -145,6 +146,7 @@ int main() {
     objectSlicingDemo(); // 15.4
     overloadingAndOverridingAndVirtualsDemo(); // 15.5
     testVariantReturn(); // 15.6
+    virtualDestructorsDemo(); // 15.7
 
     // Class Examples
 //    testStackC1();
