@@ -61,6 +61,7 @@
 #include "TICPP_VOL1/ch_15/headers/VariantReturn.h"
 #include "TICPP_VOL1/ch_15/headers/VirtualDestructors.h"
 #include "TICPP_VOL1/ch_15/headers/PureVirtualDestructors.h"
+#include "TICPP_VOL1/ch_15/headers/OperatorPolymorphism.h"
 
 
 int main() {
@@ -149,6 +150,7 @@ int main() {
     testVariantReturn(); // 15.6
     virtualDestructorsDemo(); // 15.7
     pureVirtualDestructorsDemo(); // 15.8
+    testOperatorPolymorphism(); // 15.9
 
     // Class Examples
 //    testStackC1();

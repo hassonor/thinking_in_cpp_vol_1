@@ -140,4 +140,6 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_15/PureVirtualDestructors.cpp
         TICPP_VOL1/ch_15/headers/PureVirtualDestructors.h
         TICPP_VOL1/ch_15/OStack.cpp
-        TICPP_VOL1/ch_15/headers/OStack.h)
+        TICPP_VOL1/ch_15/headers/OStack.h
+        TICPP_VOL1/ch_15/OperatorPolymorphism.cpp
+        TICPP_VOL1/ch_15/headers/OperatorPolymorphism.h)

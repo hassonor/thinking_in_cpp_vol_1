@@ -1,0 +1,12 @@
+//
+// Created by Or on 2/17/2024.
+//
+
+#ifndef CPP_PLAYGROUND_2_OPERATORPOLYMORPHISM_H
+#define CPP_PLAYGROUND_2_OPERATORPOLYMORPHISM_H
+
+
+void testOperatorPolymorphism();
+
+
+#endif //CPP_PLAYGROUND_2_OPERATORPOLYMORPHISM_H
