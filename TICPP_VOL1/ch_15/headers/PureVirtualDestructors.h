@@ -1,0 +1,12 @@
+//
+// Created by Or on 2/16/2024.
+//
+
+#ifndef CPP_PLAYGROUND_2_PUREVIRTUALDESTRUCTORS_H
+#define CPP_PLAYGROUND_2_PUREVIRTUALDESTRUCTORS_H
+
+
+void pureVirtualDestructorsDemo();
+
+
+#endif //CPP_PLAYGROUND_2_PUREVIRTUALDESTRUCTORS_H

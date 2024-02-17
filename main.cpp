@@ -60,6 +60,7 @@
 #include "TICPP_VOL1/ch_15/headers/OverloadingAndOverridingAndVirtuals.h"
 #include "TICPP_VOL1/ch_15/headers/VariantReturn.h"
 #include "TICPP_VOL1/ch_15/headers/VirtualDestructors.h"
+#include "TICPP_VOL1/ch_15/headers/PureVirtualDestructors.h"
 
 
 int main() {
@@ -147,6 +148,7 @@ int main() {
     overloadingAndOverridingAndVirtualsDemo(); // 15.5
     testVariantReturn(); // 15.6
     virtualDestructorsDemo(); // 15.7
+    pureVirtualDestructorsDemo(); // 15.8
 
     // Class Examples
 //    testStackC1();

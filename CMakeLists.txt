@@ -136,4 +136,8 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_15/VariantReturn.cpp
         TICPP_VOL1/ch_15/headers/VariantReturn.h
         TICPP_VOL1/ch_15/VirtualDestructors.cpp
-        TICPP_VOL1/ch_15/headers/VirtualDestructors.h)
+        TICPP_VOL1/ch_15/headers/VirtualDestructors.h
+        TICPP_VOL1/ch_15/PureVirtualDestructors.cpp
+        TICPP_VOL1/ch_15/headers/PureVirtualDestructors.h
+        TICPP_VOL1/ch_15/OStack.cpp
+        TICPP_VOL1/ch_15/headers/OStack.h)
