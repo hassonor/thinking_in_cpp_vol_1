@@ -63,6 +63,7 @@
 #include "TICPP_VOL1/ch_15/headers/PureVirtualDestructors.h"
 #include "TICPP_VOL1/ch_15/headers/OperatorPolymorphism.h"
 #include "TICPP_VOL1/ch_15/headers/DynamicCast.h"
+#include "TICPP_VOL1/ch_15/headers/StaticHierarchyNavigation.h"
 
 
 int main() {
@@ -153,6 +154,7 @@ int main() {
     pureVirtualDestructorsDemo(); // 15.8
     testOperatorPolymorphism(); // 15.9
     testDynamicCast(); // 15.10
+    testStaticHierarchyNavigation(); // 15.11
 
     // Class Examples
 //    testStackC1();

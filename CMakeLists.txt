@@ -144,4 +144,6 @@ add_executable(cpp_playground_2 main.cpp
         TICPP_VOL1/ch_15/OperatorPolymorphism.cpp
         TICPP_VOL1/ch_15/headers/OperatorPolymorphism.h
         TICPP_VOL1/ch_15/DynamicCast.cpp
-        TICPP_VOL1/ch_15/headers/DynamicCast.h)
+        TICPP_VOL1/ch_15/headers/DynamicCast.h
+        TICPP_VOL1/ch_15/StaticHierarchyNavigation.cpp
+        TICPP_VOL1/ch_15/headers/StaticHierarchyNavigation.h)
